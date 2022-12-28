@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: roboto, sans-serif;
+}
+
+html { font-size: 62.5%}
+
+
+body{
+    background-image: url(../imagenes/fondoo.png) ;
+    background-size: cover;
+}
+
+
+.logo{
+    width: 22%;
+    height: 22%;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+
+}
+
+
+#nav {
+    background-color: #e6e8fc ;
+
+}
+
+
+#nav .nav-item {
+    list-style: none;
+    font-size: 2.4rem
+}
+
+.botonera {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+
+
+/*index*/
+
+#header{
+    display: block;
+    width: 100%;
+    height: 40vw;
+    
+}
+
+
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal section{
+    width: 100%;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2effa;
+    width: 80%;
+    height: auto;
+    border: solid 5px #6d79e0;
+    justify-content: center;
+    padding: 5px 50px;
+    margin: 20px auto;
+}
+
+.presentacion h1{
+    color: #2032cf;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 18px;
+}
+
+.presentacion p{
+    text-align: center;
+}
+
+.presentacion p span a{
+    text-decoration: none;
+    color: #16249b;
+    
+}
+
+.presentacion p span a:hover{
+    color: #ff04b4;
+}
+
+
+.marcas__titulo{
+    text-decoration: underline;
+    margin-left: 28px;
+    color: #070f5c;
+
+}
+
+.marcas__lista{
+    margin: 30px auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.marcas__lista li{
+    width: 18rem;
+    height: 18rem;
+}
+
+.marcas__lista img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*finaliza index*/
+/*pie*/
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    width: 100% auto;
+    background-color: #e6e8fc;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 20px 0px;
+}
+
+
+.pie nav a img{
+    width: 5rem;
+}
+
+/*finaiza pie*/
+
+/*quienes somos*/
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nosotros__imagen{
+    margin-right: 5rem;
+    margin-top: 50px;
+
+
+}
+
+.nosotros .nosotros__titulo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.nosotros .nosotros__descripcion{
+    font-size: 2rem;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 13px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.nosotros .nosotros__servicios{
+    font-size: 2rem;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 13px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.nosotros .nosotros__lista{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin-left: 100px;
+    margin-right: 80px;
+    line-height: 32px;
+}
+
+.nosotros .nosotros__consultanos{
+    font-size: 2rem;
+    margin-left: 45px;
+    margin-top: 13px;
+}
+
+.nosotros .nosotros__lista li a {
+    text-decoration: none;
+    color: #16249b;
+    
+}
+
+.nosotros .nosotros__lista li a:hover{ 
+    color:#ff04b4
+}
+
+/*contacto*/
+.contacto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    line-height: 30px;
+}
+
+.contacto__titulo{
+    font-size: 2.8rem;
+    color: #070f5c;
+}
+
+.contacto__formulario form{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+
+.contacto__formulario form input{
+    width: 30rem;
+    height: 2.2rem;
+}
+
+.contacto__formulario form .btn{
+    width: 12rem;
+    align-self: flex-end;
+}
+
+.contacto__encontranos{
+    width: 40%;
+}
+.contacto__encontranos .map{
+    width: 40rem;
+    height: 25rem;
+}
+
+.contacto__encontranos p{
+    font-size: 1.8rem;
+    margin-top: 1px;
+    margin-bottom: 1.3px;
+}
